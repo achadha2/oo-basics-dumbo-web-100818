@@ -4,8 +4,8 @@ class Book
     @title = title
   end
   
-  attr_writer: @title, @author, @pages
-  attr_reader: @title, @author, @pages
+  attr_accessor @title, @author, @pages
+  
 binding .pry
 end
 
