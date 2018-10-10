@@ -1,4 +1,4 @@
-require .pry'
+require '.pry'
 class Book
   def initialize(title)
     @title = title
@@ -6,4 +6,6 @@ class Book
   
   attr_writer @title, @author, @pages
   attr_reader @title, @author, @pages
+binding .pry
 end
+
