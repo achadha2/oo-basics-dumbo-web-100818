@@ -4,7 +4,7 @@ class Book
     @title = title
   end
   
-  attr_accessor @title, @author, @pages
+  attr_accessor :title, :author, :pages
   
 binding .pry
 end
